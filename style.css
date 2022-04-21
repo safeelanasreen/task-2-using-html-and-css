@@ -1,9 +1,10 @@
 .container{
-    width:80%;
-    height:800px;
+    width:63%;
+    height:750px;
     background-color: white;
     border: 1px solid rgb(209, 193, 193);
     margin:auto;
+    
 
 }
 .card-head{
@@ -16,15 +17,15 @@
 
 }
 .card-body{
-    padding-left:20px;
-    word-spacing: 10px;
+    padding-left: 20px;
+    font-size: medium;
 }
-.card{
-    width:40%;
+.card1,.card2,.card3,.card4{
+    width:41%;
     height:300px;
     border:1px solid #ccc;
     margin:50px;
-    padding: 0;
+    
     float:right;
     
 }
@@ -32,3 +33,11 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+.card1,.card2{
+    margin-bottom: 0;
+    
+}
+.card1,.card3{
+    margin-left: 0;
+}
+
